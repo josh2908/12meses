@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz Aniversario!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>¡Feliz Primer Aniversario!</h1>
+        <p>Hoy celebramos un año lleno de amor, risas y momentos inolvidables. </p>
+            <h3>Te amo mucho</h3>
+        
+        <img src="imagen2.JPG" alt="Nosotros">
+    
+        <img src="tu-imagen-favorita.jpg" alt="Nosotros">
+        <img src="imagen3.JPG" alt="Nosotros">
+
+
+        <div>    
+            <p class="quote">
+                "El amor es paciente, es bondadoso. <br>
+                El amor no es envidioso ni jactancioso  <br>
+                ni orgulloso. No se comporta con rudeza, <br>
+                no es egoísta, no se enoja fácilmente, <br>
+                no guarda rencor." <br><br>
+                1º Corintios 13:4-5</p>
+            <p>¡Aquí está tu primera canción!</p>
+                <audio controls>
+                    <source src="Lore_Song1.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+        </div>
+        
+        <button class="celebrate-btn" onclick="showSurprise()">Has clic aquí</button>
+
+        <div id="surprise" class="surprise hidden">
+            <p>Taran! 🎉 </p>
+            <p>Te amuuu jiji 🧡&🩷 ♾️ </p>
+            <p> Yap ahora si redoble de tambores 🥁🥁🥁</p>
+            <button class="celebrate-btn"><a href="sorpresa.html">Ver sorpresa</a></button>
+ 
+        </div>
+    </div>
+
+    <script>
+        function showSurprise() {
+            document.getElementById('surprise').classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
